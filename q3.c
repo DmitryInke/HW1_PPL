@@ -15,6 +15,7 @@ void q3()
 	scanf("%c", &ch);
 	int result = getTrueAnswer(num1, num2, ch);
 	printf("Result is: %d", result);
+	puts("");
 }
 
 int getTrueAnswer(int num1, int num2, char symbol)
