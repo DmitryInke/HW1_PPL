@@ -12,5 +12,5 @@ void main()
 	puts("");
 	q5_C();
 	puts("");
-	q5_E();
+	q5_D();
 }

@@ -124,13 +124,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.c" />
+    <ClCompile Include="PlainPizza.c" />
     <ClCompile Include="q3.c" />
-    <ClCompile Include="q5_A.c" />
-    <ClCompile Include="q5_B.c" />
-    <ClCompile Include="q5_C.c" />
-    <ClCompile Include="q5_E.c" />
+    <ClCompile Include="q5.c" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="PlainPizza.h" />
     <ClInclude Include="q3.h" />
     <ClInclude Include="q5.h" />
   </ItemGroup>
