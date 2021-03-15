@@ -24,7 +24,7 @@ class Rectangle(GeometricShape):
         print("Area:", float(self.length) * float(self.height))
 
     def perimeter(self):
-        print("Perimeter:", float(self.length) + float(self.height) * 2.0)
+        print("Perimeter:", (float(self.length) + float(self.height)) * 2.0)
 
 
 class Square(Rectangle):
@@ -43,7 +43,7 @@ class Triangular(GeometricShape):
         self.right_edge = right_edge
 
     def area(self):
-        print("Area:", float(self.length) * float(self.height) / 2.0)
+        print("Area:", (float(self.length) * float(self.height)) / 2.0)
 
     def perimeter(self):
         print("Perimeter:", float(self.length) + float(self.left_edge) + float(self.right_edge))
